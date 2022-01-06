@@ -1,6 +1,7 @@
 fn main() {
     let vowels: Vec<_> = "aeiou".chars().collect();
-    let s = String::from("bologna");
+    let s = String::new();
+    
     let first = s.chars().next();
     let mut translation: Option<String> = None;
 
