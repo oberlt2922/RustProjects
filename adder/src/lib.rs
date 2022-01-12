@@ -9,6 +9,7 @@ mod tests {
 
     #[test]
     #[should_panic(expected = "Make this test fail")]
+    #[ignore]
     fn another() {
         panic!("Make this test fail");
     }
@@ -28,12 +29,12 @@ mod tests {
     }
 
     #[test]
-    fn is_two_more() {
+    fn it_adds_two() {
         assert_eq!(5, add_two(3));
     }
 
     #[test]
-    fn is_not_two_more() {
+    fn it_does_not_add_three() {
         assert_ne!(6, add_two(3));
     }
 
