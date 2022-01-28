@@ -1,0 +1,1 @@
+C:\Users\oberl\Documents\GitHub\RustProjects\minigrep\target\debug\minigrep.exe: C:\Users\oberl\Documents\GitHub\RustProjects\minigrep\src\lib.rs C:\Users\oberl\Documents\GitHub\RustProjects\minigrep\src\main.rs
